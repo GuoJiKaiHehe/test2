@@ -26,7 +26,7 @@ var Tool={
         }else{
             if(Tool.addEvent.equal(obj.events[type],fn)) return false;
 
-        }
+        } 
         // alert(Tool.addEvent.equal)
         //从第二次开始我们用事件计数器来存储
         obj.events[type][addEvent.ID++] = fn;
